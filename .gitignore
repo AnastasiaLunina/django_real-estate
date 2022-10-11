@@ -9,4 +9,6 @@ db.sqlite3-journal
 /media
 venv
 /static
+.idea
+.DS_Store
 

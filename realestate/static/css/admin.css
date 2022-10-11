@@ -1,0 +1,68 @@
+#header {
+    height: 100px;
+    background: #fff;
+    color: black;
+}
+
+#branding h1 {
+    color: black;
+}
+
+a:link,
+a: visited {
+    color: black;
+}
+
+div.breadcrumbs {
+    background: #929AAB;
+    padding: 30px;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+#header a:link, #header a:visited, #logout-form button {
+color: #000;
+}
+
+div.breadcrumbs a {
+color: black;
+}
+
+#user-tools a, #logout-form button, strong {
+margin-right: 15px;
+}
+
+.brand_img {
+padding: 30px 30px 30px 0;
+}
+
+.module h2, .module caption, .inline-group h2 {
+background: #929AAB;
+}
+
+a.section:link, a.section:visited {
+color: #000;
+}
+
+a:link, a:visited {
+color: #fff;
+}
+
+#nav-sidebar .current-app .section:visited {
+color: #000;
+}
+
+#content-related .module h2 {
+background: #929AAB;
+color: #000;
+}
+
+input  {
+height: 30px;
+outline: none;
+
+}
+
+#nav-filter  {
+border: 2px solid #929AAB;
+}
