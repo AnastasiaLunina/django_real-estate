@@ -1,9 +1,9 @@
 ## About
 ### Real Estate Multi-page Application with Admin area
-Search the property using keywords and search filters
-Get detailed information about chosen property
-Pagination implemented
-Login/Logout
+- Search the property using keywords and search filters <br>
+- Get detailed information about chosen property <br>
+- Pagination implemented <br>
+- Login/Logout <br>
 ## Setup
 
 1. The first thing to do is to clone the repository:
@@ -17,11 +17,14 @@ $ cd realestate
 
 ```sh
 $ python3 -m venv ./env
+
 # Mac/Linux
 $ source env/bin/activate
+
 # Windows
 venv\Scripts\activate.bat
-#Exit venv
+
+# Exit venv
 deactivate
 ```
 3. In settings.py change password for PostrgreSQL. 
