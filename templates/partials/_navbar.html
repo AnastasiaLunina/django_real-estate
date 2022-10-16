@@ -1,6 +1,6 @@
 {% load static %}
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-white sticky-top">
 <div class="container">
   <a class="navbar-brand" href="{% url 'index' %}">
     <img src="{% static 'img/icon.png' %}" class="logo" alt="">
@@ -17,7 +17,7 @@
         class="nav-item mr-3"
         {% endif %}
       >
-      <a class="nav-link" href="{% url 'index' %}">Home</a>
+      <a class="nav-link text-dark" href="{% url 'index' %}">Home</a>
       <li
         {% if 'about' in request.path %}
         class="nav-item active mr-3"
@@ -25,7 +25,7 @@
         class="nav-item mr-3"
         {% endif %}
       >
-        <a class="nav-link" href="{% url 'about' %}">About</a>
+        <a class="nav-link text-dark" href="{% url 'about' %}">About</a>
       </li>
       <li
         {% if 'listings' in request.path %}
@@ -34,7 +34,7 @@
         class="nav-item mr-3"
         {% endif %}
       >
-        <a class="nav-link" href="{% url 'listings' %}">Featured Listings</a>
+        <a class="nav-link text-dark" href="{% url 'listings' %}">Featured Listings</a>
       </li>
     </ul>
 
@@ -45,7 +45,7 @@
             {% else  %}
               class="nav-item mr-3"
             {% endif %}>
-          <a class="nav-link" href="{% url 'dashboard' %}">Welcome, {{ user.username }} ❤️ <strong>Dashboard</strong></a>
+          <a class="nav-link text-dark" href="{% url 'dashboard' %}">Welcome, {{ user.username }} ❤️ <strong>Dashboard</strong></a>
         </li>
         <li class="nav-item mr-3">
           <a href="javascript:{document.getElementById('logout').submit()}" class="nav-link">
@@ -62,7 +62,7 @@
             {% else  %}
               class="nav-item mr-3"
             {% endif %}>
-          <a class="nav-link" href="{% url 'register' %}">
+          <a class="nav-link text-dark" href="{% url 'register' %}">
             <i class="fas fa-user-plus"></i> Register</a>
         </li>
         <li {% if 'login' in request.path %}
@@ -70,7 +70,7 @@
             {% else %}
               class="nav-item mr-3"
             {% endif %}>
-          <a class="nav-link" href="{% url 'login' %}">
+          <a class="nav-link text-dark" href="{% url 'login' %}">
             <i class="fas fa-sign-in-alt"></i>
             Login</a>
         </li>

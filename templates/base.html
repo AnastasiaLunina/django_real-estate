@@ -13,18 +13,21 @@
       <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
       <!-- Custom -->
       <link rel="stylesheet" href="{% static 'css/style.css' %}">
+      <!-- Icon -->
+      <link rel="icon" href="{% static 'img/icon.png' %}">
       <!-- Lightbox -->
       <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">
+      <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Real Estate {% block title %} {% endblock %}</title>
 </head>
 <body>
-    <!-- Top bar -->
-    {% include 'partials/_topbar.html' %}
     <!-- Navbar -->
     {% include 'partials/_navbar.html' %}
     <!-- Main block-->
     {% block content %} {% endblock %}
-
     <!-- Top bar -->
     {% include 'partials/_footer.html' %}
 

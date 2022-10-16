@@ -9,8 +9,8 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
-          <h1 class="display-4">About BT Real Estate</h1>
-          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
+          <h1 class="display-4">About Us</h1>
+          <p class="lead">find your perfect home with us</p>
         </div>
       </div>
     </div>
@@ -35,13 +35,11 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8">
-          <h2>We Search For The Perfect Home</h2>
-          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
+          <h2>There is no better place than home.</h2>
           <img src="{% static 'img/about.jpg' %}" alt="">
-          <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis esse officia repudiandae ad saepe ex, amet
-            neque quod accusamus rem quia magnam magni dolorum facilis ullam minima perferendis? Exercitationem at quaerat
-            commodi id libero eveniet harum perferendis laborum molestias quia.</p>
+          <p class="mt-4">Realestate provides industry-leading management capabilities across the real estate investment strategies. Through the development and management of our premier real estate portfolio, we focus on maximizing the tenant experience in addition to the investment and operational performance of the asset. We also integrate leading-edge technologies which enables our properties to be at the forefront of innovation and sustainability - benefiting not only our tenants, residents and business partners, but also the communities in which we operate.</p>
         </div>
+
         <div class="col-md-4">
           {% if mvp_realtors %}
             {% for realtor in mvp_realtors %}
@@ -63,9 +61,8 @@
   <!-- Work -->
   <section id="work" class="bg-dark text-white text-center">
     <h2 class="display-4">We Work For You</h2>
-    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem velit aperiam, unde aliquid at similique!</h4>
     <hr>
-    <a href="listings.html" class="btn btn-secondary text-white btn-lg">View Our Featured Listings</a>
+    <a href="{% url 'listings' %}" class="btn btn-secondary btn-lg">View Our Featured Listings</a>
   </section>
 
   <!-- Team -->
