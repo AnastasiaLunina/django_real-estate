@@ -4,6 +4,9 @@
 - Get detailed information about chosen property <br>
 - Pagination implemented <br>
 - Login/Logout <br>
+
+https://user-images.githubusercontent.com/94207798/196047006-c6be3f42-4b6f-41a4-bc6f-3a98f6294a9d.mp4
+
 ## Setup
 
 1. The first thing to do is to clone the repository:
