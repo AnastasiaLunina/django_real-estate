@@ -5,6 +5,11 @@ img {
     width: 70%;
     height: 55%;
 }
+
+.img-about {
+width: 100%;
+}
+
 .logo {
     width: 80px;
 }
@@ -75,6 +80,7 @@ img {
 .listing-preview a {
     position: relative;
 }
+
 @media (max-width: 991px) {
     #showcase {
         padding-top: 4rem;

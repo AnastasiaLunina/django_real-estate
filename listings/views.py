@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
+from django.core.paginator import Paginator
 from .models import Listing
 from listings.choices import price_choices, bedroom_choices, state_choices
 
